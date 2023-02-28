@@ -4,17 +4,12 @@
   min-width: 100vh;
   text-align: center;
   margin: 0 auto;
-  box-sizing: 0 2px 6px;
+  box-shadow: 0 5px 6px  #08a05c;
   padding: 0 15px;
   box-sizing: border-box;
 }
-.container-heder{
-  display: flex;
-  justify-content: space-evenly;
-}
-.HederMenu{
-  display: flex;
-}
+
+/* --------------baner----------- */
 .imagen-baner{ 
   width: 1215px;
   height: 550px;
@@ -23,16 +18,7 @@ ul{
   list-style-type: none;
   margin: 10px;
 }
-.contenendor-galeria{
-display: flex;
-flex-wrap: wrap;
 
-}
-img{
-  border-radius: 12px;
-  width:309px ;
-  height: 493px;
-}
 /* -----heder------ */
 .container-heder{
   width: 97%;
@@ -42,8 +28,6 @@ img{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
-  box-sizing: border-box;
   box-sizing: border-box;
   /* background: white;  */
   box-shadow: 0 5px 10px #08a05c;
@@ -101,9 +85,58 @@ font-weight: 700;
 background-color: crimson;
 }
 /* -------------Productos---------------------- */
+.tittle{
+  font-size: 2.4rem;
+  padding: 10rem 0 0 0;
+  color: #08a05c;
+}
+/* .producto{
+  padding: 5rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:repeat(auto-fil, minmax(22rem, 1fr)) ;
+  padding: 0 15px;
+  box-sizing: border-box;
+} */
+.contenendor-galeria{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .espaciado{
+    display: flex;
+    padding: 10px;
+  }
+  img{
+    border-radius: 12px;
+    width:290px ;
+    height: 493px;
+  }
+.buttom .btn{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.buttom button{
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: #008CBA;
+  color: white;
+}
 
 
 
+  
 /* -----------------------MEDIA--------------------- */
 @media only screen and (max-windth: 600px){
   .container-heder ul{
