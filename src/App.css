@@ -14,8 +14,6 @@
 }
 .HederMenu{
   display: flex;
- 
-
 }
 .imagen-baner{ 
   width: 1215px;
@@ -35,9 +33,83 @@ img{
   width:309px ;
   height: 493px;
 }
+/* -----heder------ */
+.container-heder{
+  width: 97%;
+  min-height: 100%;
+  max-width: 1530px;
+  overflow: hiden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  /* background: white;  */
+  box-shadow: 0 5px 10px #08a05c;
+}
+a{ 
+  color:black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+li{
+  list-style: none;
+}
+a:hover{
+  color: #08a05c;
+}
+.container-heder ul{ 
+  display:flex ;
+  margin: 0;
+  padding: 0;
+}
+.container-heder ul li{
+  padding: 0 1rem;
+  
+}
+.container-heder ul li a{
+  font-weight: bold;
+  
+}
+.logo img{
+  width: 100px;
+  height: 100px;
+}
+.container-heder .cart box-icon{
+width: 100px;
+height: 45px;
+}
+.container-heder .cart{
+position: relative;
+cursor: pointer;
+}
+.container-heder .cart span{
+  position: absolute;
+  top:-1rem;
+  right: -1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+color:white;
+padding: 0rem;
+font-size: 1.5rem;
+font-weight: 700;
+background-color: crimson;
+}
+/* -------------Productos---------------------- */
 
 
 
+/* -----------------------MEDIA--------------------- */
+@media only screen and (max-windth: 600px){
+  .container-heder ul{
+    display: none ;
+  }
+}
 
 
 

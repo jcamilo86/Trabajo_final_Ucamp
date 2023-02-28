@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Foter from "./components/Foter";
 import Heder from "./components/Heder";
 import Nav from "./components/Nav";
+import "boxicons"
 
 
 function App() {
