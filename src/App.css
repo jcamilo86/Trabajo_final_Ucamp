@@ -114,11 +114,11 @@ background-color: crimson;
 .buttom .btn{
   background-color: white; 
   color: black; 
-  border: 2px solid #008CBA;
+  border: 2px solid #08a05c;
 }
 .buttom button{
   color: white;
-  padding: 16px 32px;
+  padding: 12px 28px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
@@ -130,8 +130,11 @@ background-color: crimson;
   text-transform: uppercase;
 }
 .btn:hover {
-  background-color: #008CBA;
+  background-color: #08a05c;
   color: white;
+}
+.cart{
+  color: blue;
 }
 
 

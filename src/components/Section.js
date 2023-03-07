@@ -18,9 +18,7 @@ function Setion({title,imgeSource }) {
         <h4 className="titulo">{title}</h4>
         <p className="texto-image">Shirt Pants</p>
         <p className="precie">$ 50.000</p>
-        <button>XS</button>
-        <button>S</button>
-        <button>M</button>
+      
         <br />
         <div className="buttom">
         <button className="btn">Añadir al carrito</button>
