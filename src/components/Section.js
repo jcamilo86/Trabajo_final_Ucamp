@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 function Setion({title,imgeSource }) {
   return (
    
@@ -14,6 +12,7 @@ function Setion({title,imgeSource }) {
       <img  src={imgeSource} alt="" />
       </div>
       </a>
+      
       <div className="tarjeta">
         <h4 className="titulo">{title}</h4>
         <p className="texto-image">Shirt Pants</p>

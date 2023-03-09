@@ -6,6 +6,8 @@ import Nav from "./components/Nav";
 import "boxicons";
 import { BrowserRouter, Route, Routes } from "react-router-dom"; 
 import Mujer from "./rutas/Mujer";
+import Hombre from "./rutas/Hombre";
+import Carrito from "./components/carrito/Carrito";
 
 
 
@@ -17,11 +19,12 @@ function App() {
 <Routes>
 <Route path="/" element={<Heder/>} />
 <Route path="/mujer" element={<Mujer/>} />
-
+<Route path="/hombre" element={<Hombre/>} />
 </Routes>
-      
+
       <Nav />
       <Card/>
+      <Carrito/>
       <Foter/>
       </BrowserRouter>
     </div>

@@ -25,7 +25,7 @@ function Heder() {
         </li>
 
         <li>
-          <a href="#">Hombre</a>
+        <Link to="hombre">Hombre</Link>
         </li>
       </ul>
       <div className="cart">
@@ -33,7 +33,7 @@ function Heder() {
         <box-icon name="cart"></box-icon>
         <span className="item_tota">0</span>
       </div>
-     
+      <Outlet/>
     </div>
   );
 }
