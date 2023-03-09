@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Mujer from "./rutas/Mujer";
 import Hombre from "./rutas/Hombre";
 import Carrito from "./components/carrito/Carrito";
+import Setion from "./components/Section";
 
 
 
@@ -16,8 +17,9 @@ function App() {
     <div className="App">
     
 <BrowserRouter>
+<Heder/>
 <Routes>
-<Route path="/" element={<Heder/>} />
+<Route path="/inicio" element={<Setion/>} />
 <Route path="/mujer" element={<Mujer/>} />
 <Route path="/hombre" element={<Hombre/>} />
 </Routes>

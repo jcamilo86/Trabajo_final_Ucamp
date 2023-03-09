@@ -17,7 +17,7 @@ function Heder() {
       </div>
       <ul className="HederMenu">
         <li>
-          <a href="#">Inicio</a>
+        <Link to="inicio">Inicio</Link>
         </li>
 
         <li>
